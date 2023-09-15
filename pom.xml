@@ -13,4 +13,19 @@
         <java.compiler.version>1.8</java.compiler.version>
         <java.target.version>1.8</java.target.version>
     </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.google.guava</groupId>
+            <artifactId>guava</artifactId>
+            <version>32.1.2-jre</version>
+        </dependency>
+
+        <dependency>
+            <groupId>log4j</groupId>
+            <artifactId>log4j</artifactId>
+            <version>1.2.14</version>
+        </dependency>
+
+    </dependencies>
 </project>
