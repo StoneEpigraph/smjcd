@@ -11,5 +11,8 @@ public class NumberTest {
 
     public static void main(String[] args) {
         System.out.println(Integer.MAX_VALUE);
+        double d = 0.0000001231232123;
+        int val = (int) d;
+        System.out.println(val);
     }
 }
